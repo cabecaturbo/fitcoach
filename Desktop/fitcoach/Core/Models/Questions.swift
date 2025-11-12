@@ -41,54 +41,54 @@ public enum QuestionBank {
             id: 1,
             title: "Daily Rhythm & Frequency",
             questions: [
-                Question(id: 1, text: "Walk me through a usual day — when do you tend to eat meals?", groupId: 1, helper: "Timing helps me space energy and protein for you.", quickReplies: ["Early breakfast", "Late breakfast", "Varies"]),
-                Question(id: 2, text: "How many meals or snacks feel right most days?", groupId: 1, quickReplies: ["3 meals", "3 + snacks", "4+", "It depends"]),
-                Question(id: 3, text: "Any times of day you prefer not to eat?", groupId: 1, quickReplies: ["Early AM", "Late PM", "Nope"])
+                Question(id: 1, text: "What does a typical day of eating look like for you in terms of meal times?", groupId: 1, helper: "Timing helps me space energy and protein for you.", quickReplies: ["Early breakfast", "Late breakfast", "Varies"]),
+                Question(id: 2, text: "How many meals and snacks do you usually have each day?", groupId: 1, quickReplies: ["3 meals", "3 + snacks", "4+", "It depends"]),
+                Question(id: 3, text: "Are there specific times you prefer to eat or times you absolutely cannot eat?", groupId: 1, quickReplies: ["Early AM", "Late PM", "Nope"])
             ]
         ),
         QuestionGroup(
             id: 2,
             title: "Taste & Preferences",
             questions: [
-                Question(id: 4, text: "Foods you’re loving lately?", groupId: 2, quickReplies: ["Savory", "Sweet", "Spicy"]),
-                Question(id: 5, text: "Foods or flavors you’d rather skip?", groupId: 2, quickReplies: ["Beans", "Seafood", "Spicy", "No thanks"]),
-                Question(id: 11, text: "Favorite fruits or vegetables?", groupId: 2, quickReplies: ["Berries", "Citrus", "Leafy greens"]),
-                Question(id: 12, text: "Any fruits or veggies you avoid?", groupId: 2, quickReplies: ["Cruciferous", "Nightshades", "Not picky"]),
-                Question(id: 9, text: "Carbs that make you feel great?", groupId: 2, quickReplies: ["Rice", "Potatoes", "Pasta", "Oats"]),
-                Question(id: 10, text: "Proteins you enjoy most?", groupId: 2, quickReplies: ["Chicken", "Fish", "Plant-based", "Red meat"])
+                Question(id: 4, text: "Are there any foods you absolutely love or want included regularly?", groupId: 2, quickReplies: ["Savory", "Sweet", "Spicy"]),
+                Question(id: 5, text: "Are there any foods you dislike or want to avoid entirely?", groupId: 2, quickReplies: ["Beans", "Seafood", "Spicy", "No thanks"]),
+                Question(id: 11, text: "Are there specific vegetables or fruits you love?", groupId: 2, quickReplies: ["Berries", "Citrus", "Leafy greens"]),
+                Question(id: 12, text: "Are there any vegetables or fruits you really dislike?", groupId: 2, quickReplies: ["Cruciferous", "Nightshades", "Not picky"]),
+                Question(id: 9, text: "What are your favorite carbohydrate sources (e.g., rice, pasta, potatoes, bread, grains, etc.)?", groupId: 2, quickReplies: ["Rice", "Potatoes", "Pasta", "Oats"]),
+                Question(id: 10, text: "How do you feel about different protein sources? (Red meat, poultry, seafood, plant-based, whey, etc.)", groupId: 2, quickReplies: ["Chicken", "Fish", "Plant-based", "Red meat"])
             ]
         ),
         QuestionGroup(
             id: 3,
             title: "Dietary Constraints",
             questions: [
-                Question(id: 6, text: "Any dietary restrictions, allergies, or cultural guidelines?", groupId: 3, helper: "I’ll keep your plan safe and respectful.", quickReplies: ["Gluten-free", "Dairy-free", "Halal", "Kosher", "None"])
+                Question(id: 6, text: "Do you have any dietary restrictions, allergies, or cultural/religious guidelines we should know about?", groupId: 3, helper: "I’ll keep your plan safe and respectful.", quickReplies: ["Gluten-free", "Dairy-free", "Halal", "Kosher", "None"])
             ]
         ),
         QuestionGroup(
             id: 4,
             title: "Sweets & Treats",
             questions: [
-                Question(id: 7, text: "How often do desserts or treats pop up?", groupId: 4, quickReplies: ["Daily", "Few times/week", "Rarely"]),
-                Question(id: 8, text: "What kind of sweet tooth are we fueling?", groupId: 4, quickReplies: ["Chocolate", "Candy", "Pastry", "Ice cream"])
+                Question(id: 7, text: "Do you enjoy having a dessert or sweet treat daily or on certain days of the week?", groupId: 4, quickReplies: ["Daily", "Few times/week", "Rarely"]),
+                Question(id: 8, text: "If yes, do you prefer certain types of sweets (e.g., chocolate, fruity candies, baked goods, etc.)?", groupId: 4, quickReplies: ["Chocolate", "Candy", "Pastry", "Ice cream"])
             ]
         ),
         QuestionGroup(
             id: 5,
             title: "Cooking & Time",
             questions: [
-                Question(id: 13, text: "How do you feel about cooking?", groupId: 5, quickReplies: ["Love it", "Some days", "Minimal"]),
-                Question(id: 14, text: "Prep time sweet spot per meal?", groupId: 5, quickReplies: ["<15 min", "15–30 min", "45+ min"]),
-                Question(id: 15, text: "Any kitchen equipment limits or favorites?", groupId: 5, quickReplies: ["Air fryer", "Slow cooker", "No oven", "Minimal gear"])
+                Question(id: 13, text: "How comfortable are you with cooking at home? Do you prefer simple meals or more elaborate recipes?", groupId: 5, quickReplies: ["Love it", "Some days", "Minimal"]),
+                Question(id: 14, text: "How much time do you typically have available each day or week for meal prep and cooking?", groupId: 5, quickReplies: ["<15 min", "15–30 min", "45+ min"]),
+                Question(id: 15, text: "Do you have any kitchen equipment limitations or preferences (e.g., no oven, love slow cooker, etc.)?", groupId: 5, quickReplies: ["Air fryer", "Slow cooker", "No oven", "Minimal gear"])
             ]
         ),
         QuestionGroup(
             id: 6,
             title: "Shopping Habits",
             questions: [
-                Question(id: 16, text: "How often do you shop for groceries?", groupId: 6, quickReplies: ["Daily", "2-3x/week", "Weekly"]),
-                Question(id: 17, text: "Do you follow a fixed list or shop flexibly?", groupId: 6, quickReplies: ["Fixed list", "Flexible", "Hybrid"]),
-                Question(id: 18, text: "Staples you always keep on hand?", groupId: 6),
+                Question(id: 16, text: "How often do you typically go grocery shopping?", groupId: 6, quickReplies: ["Daily", "2-3x/week", "Weekly"]),
+                Question(id: 17, text: "Do you prefer a set weekly grocery list or a flexible one that adjusts weekly?", groupId: 6, quickReplies: ["Fixed list", "Flexible", "Hybrid"]),
+                Question(id: 18, text: "Are there certain staples you always keep on hand?", groupId: 6),
                 Question(id: 19, text: "Seasonal favorites worth planning around?", groupId: 6)
             ]
         ),
