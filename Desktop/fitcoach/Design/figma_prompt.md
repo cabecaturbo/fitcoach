@@ -1,0 +1,2 @@
+Design an iOS app **Conversational Macro Coach** with a calm Anthropic base and Nike-like athletic accent. Provide design system (light theme first), components (cards, chips, inputs, buttons, list cells), and screens: Splash, Chat-Onboarding (9 grouped steps incl. **Training & Recovery**), Plan Dashboard (macro rings with **training/rest toggles**), Meal Timeline, Grocery List, Profile. Chat microcopy is warm and encouraging, with quick-reply chips, progress meter, ‘Skip for now’, and ‘See why I’m asking’. Export component library and tokens.
+
